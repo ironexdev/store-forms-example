@@ -3729,10 +3729,10 @@ std-env@^3.1.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.1.1.tgz#1f19c4d3f6278c52efd08a94574a2a8d32b7d092"
   integrity sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw==
 
-store-forms@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/store-forms/-/store-forms-0.0.2.tgz#71eeb3a477e7e18b71654a3455e313d78a3aff4b"
-  integrity sha512-65hUzYx8xScBJ/XpnXSflQL1FruFmNg8ha5Q1B/yn8IN/RQBBp4hv1rpSV/skbF/ecaeznYwoAogMdZYVF/e/Q==
+store-forms@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/store-forms/-/store-forms-0.0.3.tgz#348baf951a9eb078edd67710ae242bd4840c5676"
+  integrity sha512-bbpBdvYNYcZ7PdxDP2XBXcqkVGzv4LD8c6WRKi9EavRybfiNiSNfQNp+mgjHcttw7dPRAGI0RKMrXhK0iQzd+A==
 
 strict-uri-encode@^2.0.0:
   version "2.0.0"

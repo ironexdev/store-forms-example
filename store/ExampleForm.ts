@@ -2,8 +2,8 @@ import { defineStore } from "pinia"
 import { ref } from "@vue/reactivity"
 import {FormInterface} from "store-forms/Form/FormInterface";
 import FieldInterface from "store-forms/Form/Field/FieldInterface";
-import EmailRule from "store-forms/Form/Rules/EmailRule";
 import MyField from "~/MyField";
+import EmailRule from "~/store/Rules/EmailRule";
 
 export interface ExampleFormStoreInterface extends FormInterface {
   email: FieldInterface
