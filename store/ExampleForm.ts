@@ -11,6 +11,7 @@ export interface ExampleFormStoreInterface extends FormInterface {
 
 export const useExampleFormStore = defineStore("ExampleForm", (): ExampleFormStoreInterface => {
   const submitted = ref(false)
+  const errors = ref({})
   const valid = ref(false)
 
   const email: FieldInterface = new MyField(
@@ -21,7 +22,8 @@ export const useExampleFormStore = defineStore("ExampleForm", (): ExampleFormSto
       new EmailRule()
     ],
     true,
-    []
+    [],
+    "Method of exchanging messages between people using electronic devices"
   )
 
   const fields = [email]
@@ -36,5 +38,5 @@ export const useExampleFormStore = defineStore("ExampleForm", (): ExampleFormSto
       return response
   }
 
-  return { fields, email, submit, submitted, valid }
+  return { fields, email, submit, errors, submitted, valid }
 })
